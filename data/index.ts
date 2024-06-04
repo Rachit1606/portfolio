@@ -250,7 +250,7 @@ export const resumeLink = `https://drive.google.com/file/d/1fO2G6GF2OJH2jloEfN2K
 export const achievementsData = [
     {
       title: "Cognizant Genrative AI hackathon Runner-ups",
-      description: "Won 2nd Price in Cognizant Generative AI hackathon by providing a viable solution regarding financial fraud in Canada. Got to know and Intereact with Industry Professionals and get a chance to join Generative AI Externship Program by Cognizant Start this June,2024 - July,2024",
+      description: "Won 2nd Price in Cognizant Generative AI hackathon by providing a viable solution regarding financial fraud in Canada. Got to know and Intereact with Industry Professionals and get a chance to join Generative AI Externship Program by Cognizant From June,2024 - July,2024",
       imgSrc: "/assets/cognizant.jpg",
     },
     {
