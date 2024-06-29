@@ -244,7 +244,7 @@ export const bestSkills = [
     "Generative AI",
 ];
 
-export const resumeLink = `https://drive.google.com/file/d/1fO2G6GF2OJH2jloEfN2K2yyz9UOQ-SBc/view?usp=drive_link`;
+export const resumeLink = `https://drive.google.com/file/d/1Y22Q5mGgswQQxh6pITc26e58Xe6G6RkL/view?usp=sharing`;
 
 
 export const achievementsData = [
