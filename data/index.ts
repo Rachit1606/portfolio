@@ -149,6 +149,26 @@ export const projectsData: ProjectItem[] = [
         techStack: 'React, JavaScript, Java, Spring Boot, SQL, AWS (Amazon Web Services), CloudFormation'
     },
     {
+        title: "PyTorch + Hugging Face Model Fine-tuning",
+        websiteLink:`https://drive.google.com/file/d/1lSv4r0mQY_hb9KJgi4zah7m-cXRpoqGM/view?usp=drive_link`,
+        des: [
+            "Loaded a pre-trained GPT-2 model and evaluated its performance.",
+            "Performed parameter-efficient fine-tuning using the PEFT library with LoRA configuration.",
+            "Conducted inference using the fine-tuned model and compared its performance to the original model."
+        ],
+        techStack: "Python, PyTorch, Hugging Face, PEFT, LoRA"
+    },
+    {
+        title: "Image Classification Algorithm for Dogs",
+        githubLink: `https://drive.google.com/file/d/1qaNU870CHurEpUOqff5UkYc7gNJgyfST/view?usp=sharing`,
+        des: [
+            "Used convolutional neural networks (CNN) to identify images as 'dogs' or 'not dogs'.",
+            "Evaluated the algorithm's effectiveness in correctly identifying a dog's breed.",
+            "Timed the algorithms to balance accuracy with runtime efficiency."
+        ],
+        techStack: "Python, TensorFlow, AlexNet, VGG, ResNet"
+    },
+    {
         title: 'K8 Product Services',
         des: [
             'Two microservices developed in Spring Boot. Implemented CI/CD pipeline in GCP using Cloud Build, Cloud Source Repository and Artifact Registry. Created Kubernetes cluster using terraform.',
@@ -244,7 +264,7 @@ export const bestSkills = [
     "Generative AI",
 ];
 
-export const resumeLink = `https://drive.google.com/file/d/1Y22Q5mGgswQQxh6pITc26e58Xe6G6RkL/view?usp=sharing`;
+export const resumeLink = `https://drive.google.com/file/d/1xqta_JXr-GRvfd88O6hskXNg2gmkI7Rx/view?usp=sharing`;
 
 
 export const achievementsData = [
@@ -257,6 +277,11 @@ export const achievementsData = [
       title: "Generative AI and Ocean Hackathon Runner-ups",
       description: "Won 2nd Prize in Generative AI & Oceans by providing a viable solution for marine life conservation with Gen AI. Presented our Idea at the 2024 Dalhousie AI Symposium. Got a chance to gain experience and knowledge for great minds in the field of Generative AI",
       imgSrc: "/assets/deepsense.jpg",
+    },
+    {
+        title: "Cognizant Generative AI Externship",
+        description: "Successfully completed the Cognizant Generative AI Externship, where I worked on two projects: using a pretrained Image Classifier to train dog breeds and applying lightweight fine-tuning to a foundation model. Gained hands-on experience in Python, deep learning fundamentals, foundation models, and fine-tuning a foundational model.",
+        imgSrc: "/assets/CompletionCertificate.jpg",
     },
     {
         title: "Global Game Jam Participation",
