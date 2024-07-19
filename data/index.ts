@@ -149,7 +149,7 @@ export const projectsData: ProjectItem[] = [
         techStack: 'React, JavaScript, Java, Spring Boot, SQL, AWS (Amazon Web Services), CloudFormation'
     },
     {
-        title: "PyTorch + Hugging Face Model Fine-tuning",
+        title: "Lightweight Fine Tuning to a Foundational Model",
         websiteLink:`https://drive.google.com/file/d/1lSv4r0mQY_hb9KJgi4zah7m-cXRpoqGM/view?usp=drive_link`,
         des: [
             "Loaded a pre-trained GPT-2 model and evaluated its performance.",
