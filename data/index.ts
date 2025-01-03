@@ -59,7 +59,7 @@ export const workExperiences: WorkExperienceItem[] = [
     {
         _id: 2,
         title: "Graduate Engineering Trainee (Java Developer)",
-        subTitle: "Snapdeal (Acevector Group Private Limited) - (09/2022 - 03/2023)",
+        subTitle: "Snapdeal (Acevector Group Private Limited) - (09/2022 - 07/2023)",
         location: "Gurugram, Haryana, India",
         description: [
             "During my tenure at Snapdeal as a Graduate Engineering Trainee, I was involved in several key projects and responsibilities",
