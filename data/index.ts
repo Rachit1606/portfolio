@@ -57,6 +57,22 @@ export const navLinks: NavItem[] = [
 
 export const workExperiences: WorkExperienceItem[] = [
     {
+        _id: 3,
+        title: "Software Engineer Intern",
+        subTitle: "GrayCyan · Co-op (09/2024 - 12/2024)",
+        location: "Toronto, Ontario, Canada · Remote",
+        description: [
+            "Led full-stack development from scratch for HonestAIEngine.com (https://honestaiengine.com/).",
+            "Built a scalable pipeline for fetching news from multiple sources, leveraging Generative AI (OpenAI API) and prompt engineering for timely insights.",
+            "Developed a WebSocket-based chatbot application, utilizing innovative software architectures to reduce development time by 50%.",
+            "Presented a solution that boosted chatbot response times by 30% and cut down news fetching times for HonestAI by 20%.",
+            "Deployed multiple applications using various cloud service providers like AWS, Google Cloud Platform, and Azure.",
+            "Developed secure, user-friendly authentication systems with multiple sign-in options, including username/password, email/OTP, and email magic links, utilizing Firebase Auth and AWS Cognito for robust identity management.",
+            "Implemented a newsletter for HonestAIEngine.com, leveraging platforms like Mailchimp to distribute updates and announcements effectively.",
+            "Worked with Google Search Console API for Search Engine Optimization.",
+        ],
+    },
+    {
         _id: 2,
         title: "Graduate Engineering Trainee (Java Developer)",
         subTitle: "Snapdeal (Acevector Group Private Limited) - (09/2022 - 07/2023)",
