@@ -11,7 +11,7 @@ const Experience = () => {
         className="w-full py-20 border-b-[1px] border-b-gray-600"
       >
         <div className="flex justify-center items-center text-center">
-          <Title title="1.5 YEARS OF EXPERIENCE" des="Work Experience" />
+          <Title title="2 YEARS OF EXPERIENCE" des="Work Experience" />
         </div>
         <div className="pb-12 font-titleFont flex gap-20 px-5">
           <div className="mt-2 w-full h-fit border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
