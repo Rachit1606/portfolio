@@ -8,10 +8,19 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { SiLeetcode } from "react-icons/si";
 import { Link } from "react-scroll";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+
+  const handleNavClick = () => {
+    setShowMenu(false);
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setIsTransitioning(false);
+    }, 800);
+  };
   return (
     <>
       <div className="w-full h-24 sticky top-0 z-50 bg-boxBg backdrop-blur-md mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-800 lg:shadow-neon shadow-[0_5px_15px_rgba(0,240,255,0.1)] px-4 md:px-10">
@@ -23,7 +32,7 @@ const Navbar = () => {
             smooth={true}
             offset={-80}
             duration={500}
-            onClick={() => setShowMenu(false)}
+            onClick={handleNavClick}
           >
             <Image
               className="h-[40px] w-fit"
@@ -38,7 +47,7 @@ const Navbar = () => {
           <NavList
             extraClass={`hidden mdl:inline-flex items-center gap-6 lg:gap-10`}
             navItemtext="text-base"
-            handleClick={() => setShowMenu(false)}
+            handleClick={handleNavClick}
           />
           <span
             onClick={() => setShowMenu(!showMenu)}
@@ -56,7 +65,7 @@ const Navbar = () => {
                   smooth={true}
                   offset={-80}
                   duration={500}
-                  onClick={() => setShowMenu(false)}
+                  onClick={handleNavClick}
                 >
                   <Image
                     className="h-[50px] w-fit"
@@ -69,7 +78,7 @@ const Navbar = () => {
                 <NavList
                   extraClass={`flex flex-col gap-4`}
                   navItemtext="text-base text-xl"
-                  handleClick={() => setShowMenu(false)}
+                  handleClick={handleNavClick}
                 />
                 <div className="flex flex-col gap-4">
                   <h2 className="text-base uppercase font-titleFont mb-4">
@@ -96,6 +105,35 @@ const Navbar = () => {
           )}
         </div>
       </div>
+
+      <AnimatePresence>
+        {isTransitioning && (
+          <div className="fixed inset-0 z-[9999] pointer-events-none flex flex-col">
+            <motion.div
+              initial={{ y: "-100%" }}
+              animate={{ y: "0%" }}
+              exit={{ y: "-100%" }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+              className="w-full h-1/2 bg-[#05070e] flex items-end justify-center pb-2 border-b-2 border-designColor shadow-[0_10px_30px_rgba(0,240,255,0.2)]"
+            >
+              <span className="text-designColor font-titleFont tracking-[0.5em] text-xl md:text-3xl drop-shadow-[0_0_10px_rgba(0,240,255,0.8)] opacity-70">
+                SYSTEM
+              </span>
+            </motion.div>
+            <motion.div
+              initial={{ y: "100%" }}
+              animate={{ y: "0%" }}
+              exit={{ y: "100%" }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+              className="w-full h-1/2 bg-[#05070e] flex items-start justify-center pt-2 border-t-2 border-designColor shadow-[0_-10px_30px_rgba(0,240,255,0.2)]"
+            >
+              <span className="text-designColor font-titleFont tracking-[0.5em] text-xl md:text-3xl drop-shadow-[0_0_10px_rgba(0,240,255,0.8)] opacity-70">
+                ACCESS
+              </span>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </>
   );
 };
