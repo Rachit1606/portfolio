@@ -27,20 +27,17 @@ const LeftSide = () => {
               cursorColor="#00f0ff"
             />
           </h2>
-          <p className="text-base font-bodyFont leading-6 tracking-wide text-justify">
-            Dynamic and accomplished computer science professional with 3 years of hands-on experience in software development, cloud computing, and Generative AI. Currently pursuing a Master&apos;s in Applied Computer Science at Dalhousie University, complemented by a Bachelor&apos;s in Computer Engineering. Proficient in a wide array of programming languages, frameworks, and cloud technologies including Python, Java, React, AWS, and GCP.
-            <br />
-            <br />
-            Demonstrated expertise in developing innovative mobile and web applications, such as a virtual tour assistant and a collaborative task management website. Proven track record in delivering robust solutions and excelling in collaborative, fast-paced environments. Key strengths include innovation, teamwork, adaptability, problem-solving, and professional communication skills.
-            <br />
-            <br />
-            <br />
-            Successfully implemented a WhatsApp Shop system at Snapdeal and contributed to course content development at Coding Ninjas. Achieved notable success in hackathons, winning prizes for solutions in financial fraud and marine life conservation. Seeking coop and full-time opportunities to leverage technical skills and drive impactful projects in the field of computer science.
-            <br />
-            <br />I love working with business and collaborators to bring their
-            ideas to life, and I&apos;m always looking for new opportunities to
-            learn and grow as a developer.
-          </p>
+          <div className="text-sm md:text-base font-bodyFont leading-relaxed tracking-wide text-gray-300 flex flex-col gap-6 text-justify">
+            <p>
+              Hey! I build <strong className="text-white">scalable software, autonomous AI systems</strong>, and <strong className="text-white">cloud infrastructures</strong>. With 3+ years in the trenches spanning enterprises like <span className="text-designColor font-semibold">Citigroup</span> and <span className="text-designColor font-semibold">Snapdeal</span>, I specialize in turning hardcore technical challenges into seamless, high-performance solutions.
+            </p>
+            <p>
+              Completed my Master&apos;s from <strong className="text-white">Dalhousie University</strong>. From engineering critical microservices to clutching 🏆 <strong className="text-white">Runner-Up titles</strong> in elite Generative AI Hackathons, I thrive in fast-paced, collaborative environments where innovation is the only metric.
+            </p>
+            <p className="border-l-4 border-designColor pl-4 py-3 italic bg-black/20 rounded-r-md text-gray-400">
+              "Whether it&apos;s writing Python pipelines, architecting serverless AWS infrastructure, or exploring the absolute frontiers of Agentic AI—I love transforming wild ideas into production-ready reality."
+            </p>
+          </div>
         </div>
         <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between pt-0">
           <div>
