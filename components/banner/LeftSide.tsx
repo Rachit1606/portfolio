@@ -18,8 +18,8 @@ const LeftSide = () => {
             Hi, I&apos;m{" "}
             <span className="bg-gradient-to-r from-designColor to-cyberPurple bg-clip-text text-transparent capitalize drop-shadow-[0_0_10px_rgba(0,240,255,0.8)]">Rachit Khanna</span>
           </h1>
-          <h2 className="text-4xl font-bold text-white h-[80px] md:h-auto">
-            a <span>{text}</span>
+          <h2 className="text-4xl font-bold text-white min-h-[90px] md:min-h-0 h-auto">
+            A <span>{text}</span>
             <Cursor
               cursorBlinking={true}
               cursorStyle="_"
@@ -32,10 +32,10 @@ const LeftSide = () => {
             <br />
             Demonstrated expertise in developing innovative mobile and web applications, such as a virtual tour assistant and a collaborative task management website. Proven track record in delivering robust solutions and excelling in collaborative, fast-paced environments. Key strengths include innovation, teamwork, adaptability, problem-solving, and professional communication skills.
             <br />
-            <br/>
-            <br/>
+            <br />
+            <br />
             Successfully implemented a WhatsApp Shop system at Snapdeal and contributed to course content development at Coding Ninjas. Achieved notable success in hackathons, winning prizes for solutions in financial fraud and marine life conservation. Seeking coop and full-time opportunities to leverage technical skills and drive impactful projects in the field of computer science.
-            <br/>
+            <br />
             <br />I love working with business and collaborators to bring their
             ideas to life, and I&apos;m always looking for new opportunities to
             learn and grow as a developer.

@@ -42,7 +42,7 @@ const BotContact = () => {
       let botResponse = "I'm just a local AI! Try asking me about Rachit's skills, experience, projects, or how to contact him. You can also email him directly at rc257785@dal.ca";
 
       if (lowerInput.includes("experience") || lowerInput.includes("work") || lowerInput.includes("job")) {
-        botResponse = "Rachit is currently a Full Stack Developer at Citigroup, and previously consulted at FDM Group. He has 2+ years of experience with scalable systems and AI.";
+        botResponse = "Rachit is a Full Stack Developer currently at Citigroup. He also has past experience working at FDM Group, GrayCyan, Snapdeal, Coding Ninjas, and as a TA at Dalhousie University!";
       } else if (lowerInput.includes("skill") || lowerInput.includes("tech") || lowerInput.includes("stack")) {
         botResponse = "His core stack includes Python, Fast API, AI Agents, Java Spring Boot, and AWS. He's also highly proficient in React and Next.js!";
       } else if (lowerInput.includes("project")) {

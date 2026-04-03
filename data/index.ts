@@ -60,7 +60,7 @@ export const workExperiences: WorkExperienceItem[] = [
         _id: 5,
         title: "Full Stack Developer - Contract",
         subTitle: "Citigroup (June 2025 - Present)",
-        location: "Hybrid",
+        location: "Missisunga, Ontario, Canada",
         description: [
             "Boosted application execution efficiency by 25% by strategically refactoring the core Python codebase, driving higher maintainability and system modularity.",
             "Engineered an internal portal (React, FastAPI, MongoDB) that streamlined internal operations and improved cross-team resource visibility.",
@@ -71,9 +71,9 @@ export const workExperiences: WorkExperienceItem[] = [
     },
     {
         _id: 4,
-        title: "Consultant - Software Engineering",
+        title: "IT Consultant",
         subTitle: "FDM Group (Apr 2025 - Present)",
-        location: "Remote/On-site",
+        location: "Toronto, Ontario, Canada",
         description: [
             "Accelerated sprint cadences and improved software delivery predictability by enforcing rigorous Agile/Scrum and Git workflows.",
             "Reduced technical debt and future system maintenance costs by architecting features using SOLID design patterns and Clean Code principles.",
@@ -98,6 +98,17 @@ export const workExperiences: WorkExperienceItem[] = [
     },
     {
         _id: 2,
+        title: "Teaching Assistant & Marker",
+        subTitle: "Dalhousie University (Sep 2024 - April 2025)",
+        location: "Halifax, Nova Scotia, Canada",
+        description: [
+            "Served as a Teaching Assistant and Marker for Data Structures and Software Engineering courses.",
+            "Conducted lab sessions, guided students, and taught core principles of software engineering, Git version control, TDD, and various algorithms.",
+            "Created testing suites and added robust test cases to student systems to ensure code coverage of around 80%."
+        ],
+    },
+    {
+        _id: 1,
         title: "Software Developer",
         subTitle: "Snapdeal (Sep 2022 - Mar 2023)",
         location: "Gurugram, Haryana, India",
@@ -106,6 +117,19 @@ export const workExperiences: WorkExperienceItem[] = [
             "Ensured alignment with critical business deliverables by taking an active role in cross-functional continuous delivery pipelines (Agile/Scrum).",
             "Reduced infrastructure overhead and significantly improved data availability by driving the migration of legacy on-premises data to AWS Cloud.",
             "Elevated critical system performance by leading rigorous performance tuning and testing initiatives."
+        ],
+    },
+    {
+        _id: 0,
+        title: "Content Intern",
+        subTitle: "Coding Ninjas — Sunrise Mentors (Jan 2022 – Jul 2022)",
+        location: "Gurugram, Haryana, India",
+        description: [
+            "Created and updated course content for DBMS, Operating Systems, and System Design.",
+            "Enhanced website content using HTML, CSS, and JavaScript for improved user experience.",
+            "Collaborated with developers and designers to implement educational content, demonstrating strong communication and problem-solving skills.",
+            "Documented processes and collaborated on content optimization. Suggested improvements, contributing to content refinement.",
+            "Tech Stack: HTML, CSS, JavaScript, SQL."
         ],
     }
 ];

@@ -64,14 +64,14 @@ const JarvisLoader = () => {
           </div>
 
           {/* Terminal Logs */}
-          <div className="w-11/12 max-w-lg h-32 flex flex-col items-start justify-end text-left font-mono text-xs sm:text-sm md:text-base selection:bg-designColor">
+          <div className="w-11/12 max-w-lg min-h-[128px] h-auto mt-4 sm:mt-8 flex flex-col items-start justify-end text-left font-mono text-[10px] sm:text-sm md:text-base selection:bg-designColor z-10">
             {logs.slice(0, textIndex + 1).map((log, i) => (
               <motion.p
                 key={i}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 className={`${i === logs.length - 1 ? "text-designColor font-bold shadow-neon" : "text-gray-400"
-                  } drop-shadow-md mb-1`}
+                  } drop-shadow-md mb-2 leading-relaxed`}
               >
                 &gt; {log}
               </motion.p>
