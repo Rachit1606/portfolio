@@ -52,7 +52,7 @@ const BotContact = () => {
       } else if (lowerInput.includes("education") || lowerInput.includes("degree") || lowerInput.includes("study") || lowerInput.includes("university")) {
         botResponse = "Rachit holds a Master's in Applied Computer Science from Dalhousie University and a Bachelor's in Computer Engineering.";
       } else if (lowerInput.includes("achievement") || lowerInput.includes("certificate") || lowerInput.includes("hackathon") || lowerInput.includes("award")) {
-        botResponse = "He is an AWS Certified Solutions Architect and Cloud Practitioner, and won multiple Runner-up prizes in Generative AI hackathons with Cognizant and DeepSense!";
+        botResponse = "He is an AWS Certified Solutions Architect, a Solace Certified Developer, and won multiple Runner-up prizes in Generative AI hackathons with Cognizant and DeepSense!";
       } else if (lowerInput.includes("hello") || lowerInput.includes("hi") || lowerInput.includes("hey")) {
         botResponse = "Hello there! How can I help you today?";
       }

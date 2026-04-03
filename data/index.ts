@@ -360,6 +360,11 @@ export const achievementsData = [
         imgSrc: "/assets/sa03.jpg",
     },
     {
+        title: "Solace Certified Developer Practitioner",
+        description: "Achieved the Developer Practitioner (Level 1) certification from Solace Academy. Demonstrated proficiency in event-driven architecture, messaging concepts, and leveraging the Solace PubSub+ event broker platform.",
+        imgSrc: "/assets/solace.png",
+    },
+    {
         title: "AWS Certified Cloud Practioner Certification",
         description: "Completed training as a Cloud Practitioner as a Part of the Snapdeal Technology Team. Achieved the certificate after completing the exam with a score of 850/1000.",
         imgSrc: "/assets/cp01.jpg",
