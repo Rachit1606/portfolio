@@ -35,7 +35,7 @@ const LeftSide = () => {
               Completed my Master&apos;s from <strong className="text-white">Dalhousie University</strong>. From engineering critical microservices to clutching 🏆 <strong className="text-white">Runner-Up titles</strong> in elite Generative AI Hackathons, I thrive in fast-paced, collaborative environments where innovation is the only metric.
             </p>
             <p className="border-l-4 border-designColor pl-4 py-3 italic bg-black/20 rounded-r-md text-gray-400">
-              "Whether it&apos;s writing Python pipelines, architecting serverless AWS infrastructure, or exploring the absolute frontiers of Agentic AI—I love transforming wild ideas into production-ready reality."
+              &quot;Whether it&apos;s writing Python pipelines, architecting serverless AWS infrastructure, or exploring the absolute frontiers of Agentic AI—I love transforming wild ideas into production-ready reality.&quot;
             </p>
           </div>
         </div>
