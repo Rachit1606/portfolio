@@ -22,13 +22,15 @@ module.exports = {
         titleFont: ["Montserrat", "sans-serif"],
       },
       colors: {
-        bodyColor: "#4C4C4C",
-        lightText: "#D1D1D1",
-        boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
-        designColor: "#85C7F2",
+        bodyColor: "#05070e",
+        lightText: "#c4cbd6",
+        boxBg: "rgba(10, 15, 30, 0.5)",
+        designColor: "#00f0ff",
+        cyberPurple: "#b026ff",
       },
       boxShadow: {
-        shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
+        shadowOne: "0px 10px 30px -10px rgba(0, 240, 255, 0.3)",
+        neon: "0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(176, 38, 255, 0.3)",
       }
     },
   },

@@ -2,16 +2,16 @@ import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata = {
-  title: "Rachit Khanna || Personal Portfolio",
+  title: "Rachit Khanna | Full Stack Developer, Cloud Engineer & AI Specialist",
   description:
-    "Full-stack developer, Cloud Engineer and Generative AI Enthusiast with experience in building robust applications using modern technologies. Skilled in frontend development, backend development, Implementing Generative AI, and passionate about creating efficient and scalable solutions.",
+    "Portfolio of Rachit Khanna. Software Developer with 2+ years of experience driving business outcomes through scalable distributed systems, cloud-native applications, and Generative AI. AWS Certified Solutions Architect based in Halifax, Canada.",
   referrer: "no-referrer",
   creator: "Rachit Khanna",
   authors: {
     name: "Rachit Khanna",
   },
   keywords:
-    "HTML, CSS, Javascript, Typescript, Angular, Java, Spring Boot, SQL, Microservices, Vertex AI, AWS, GCP, Agile",
+    "Rachit Khanna, Software Developer, Full Stack Developer, Generative AI, Cloud Engineer, AWS Certified Solutions Architect, Python, Java, React, Next.js, Node.js, Spring Boot, Artificial Intelligence, Halifax, Canada",
   robots: "index, follow",
 };
 

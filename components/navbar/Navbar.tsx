@@ -12,7 +12,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <>
-      <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4 md:px-10">
+      <div className="w-full h-24 sticky top-0 z-50 bg-boxBg backdrop-blur-md mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-800 lg:shadow-neon shadow-[0_5px_15px_rgba(0,240,255,0.1)] px-4 md:px-10">
         <div className="h-100 w-100 cursor-pointer">
           <Link
             to={"about"}
@@ -112,7 +112,7 @@ const NavList = ({
       {navLinks.map(({ _id, title, link }) => (
         <li
           key={_id}
-          className={`${navItemtext} font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300`}
+          className={`${navItemtext} font-normal text-lightText tracking-wide cursor-pointer hover:text-designColor hover:drop-shadow-[0_0_8px_rgba(0,240,255,0.8)] duration-300`}
         >
           <Link
             to={link}
@@ -127,7 +127,7 @@ const NavList = ({
           </Link>
         </li>
       ))}
-      <li className="border w-fit border-designColor rounded-md px-4 py-2">
+      <li className="border w-fit border-designColor rounded-md px-4 py-2 hover:shadow-neon hover:bg-designColor/10 transition-all duration-300">
         <a
           href={resumeLink}
           target="_blank"

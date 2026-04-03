@@ -18,7 +18,7 @@ const ProjectCard = ({
   techStack?: string;
 }) => {
   return (
-    <div className="w-full h-fit p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors hover:scale-105 duration-500 hover:transition hover:ease-in-out">
+    <div className="w-full h-fit p-4 xl:px-12 xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-boxBg backdrop-blur-md border border-gray-800 group hover:border-designColor hover:shadow-neon transition-all hover:-translate-y-2 duration-500">
       {src && (
         <div className="w-full h-fit overflow-hidden rounded-lg">
           <Image
@@ -39,14 +39,14 @@ const ProjectCard = ({
             <div className="flex gap-2">
               {githubLink && (
                 <a href={githubLink} target="_blank" rel="noopener noreferrer">
-                  <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                  <span className="text-lg w-10 h-10 rounded-full bg-[#05070e] border border-gray-800 inline-flex justify-center items-center text-gray-400 hover:text-designColor hover:border-designColor hover:shadow-[0_0_8px_rgba(0,240,255,0.8)] duration-300 cursor-pointer">
                     <BsGithub />
                   </span>
                 </a>
               )}
               {websiteLink && (
                 <a href={websiteLink} target="_blank" rel="noopener noreferrer">
-                  <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                  <span className="text-lg w-10 h-10 rounded-full bg-[#05070e] border border-gray-800 inline-flex justify-center items-center text-gray-400 hover:text-designColor hover:border-designColor hover:shadow-[0_0_8px_rgba(0,240,255,0.8)] duration-300 cursor-pointer">
                     <FaGlobe />
                   </span>
                 </a>

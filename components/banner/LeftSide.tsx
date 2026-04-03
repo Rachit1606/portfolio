@@ -16,14 +16,14 @@ const LeftSide = () => {
         <div className="flex flex-col gap-5">
           <h1 className="text-5xl font-bold text-white">
             Hi, I&apos;m{" "}
-            <span className="text-designColor capitalize">Rachit Khanna</span>
+            <span className="bg-gradient-to-r from-designColor to-cyberPurple bg-clip-text text-transparent capitalize drop-shadow-[0_0_10px_rgba(0,240,255,0.8)]">Rachit Khanna</span>
           </h1>
           <h2 className="text-4xl font-bold text-white h-[80px] md:h-auto">
             a <span>{text}</span>
             <Cursor
               cursorBlinking={true}
               cursorStyle="_"
-              cursorColor="#ff014f"
+              cursorColor="#00f0ff"
             />
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide text-justify">

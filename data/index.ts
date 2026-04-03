@@ -44,9 +44,9 @@ export const navLinks: NavItem[] = [
         link: "projects",
     },
     {
-        _id:1005,
+        _id: 1005,
         title: "Achievements",
-        link:"achievements",
+        link: "achievements",
     },
     {
         _id: 1006,
@@ -57,52 +57,69 @@ export const navLinks: NavItem[] = [
 
 export const workExperiences: WorkExperienceItem[] = [
     {
-        _id: 3,
-        title: "Software Engineer Intern",
-        subTitle: "GrayCyan · Co-op (09/2024 - 12/2024)",
-        location: "Toronto, Ontario, Canada · Remote",
+        _id: 5,
+        title: "Full Stack Developer - Contract",
+        subTitle: "Citigroup (June 2025 - Present)",
+        location: "Remote/On-site",
         description: [
-            "Led full-stack development from scratch for HonestAIEngine.com (https://honestaiengine.com/).",
-            "Built a scalable pipeline for fetching news from multiple sources, leveraging Generative AI (OpenAI API) and prompt engineering for timely insights.",
-            "Developed a WebSocket-based chatbot application, utilizing innovative software architectures to reduce development time by 50%.",
-            "Presented a solution that boosted chatbot response times by 30% and cut down news fetching times for HonestAI by 20%.",
-            "Deployed multiple applications using various cloud service providers like AWS, Google Cloud Platform, and Azure.",
-            "Developed secure, user-friendly authentication systems with multiple sign-in options, including username/password, email/OTP, and email magic links, utilizing Firebase Auth and AWS Cognito for robust identity management.",
-            "Implemented a newsletter for HonestAIEngine.com, leveraging platforms like Mailchimp to distribute updates and announcements effectively.",
-            "Worked with Google Search Console API for Search Engine Optimization.",
+            "Boosted application execution efficiency by 25% by strategically refactoring the core Python codebase, driving higher maintainability and system modularity.",
+            "Engineered an internal application management portal (React, FastAPI, MongoDB) that streamlined internal operations and improved cross-team resource visibility.",
+            "Slashed manual processing time by over 40% by deploying automated Python and GraphQL scripts for complex administrative workflows.",
+            "Accelerated delivery cycles and optimized internal tooling by spearheading automation initiatives across cross-functional Agile/Scrum teams.",
+            "Ensured zero-downtime deployments and rapid scaling of full-stack services across ECS Kubernetes clusters using Harness, Lightspeed, and OpenShift."
+        ],
+    },
+    {
+        _id: 4,
+        title: "Consultant - Software Engineering",
+        subTitle: "FDM Group (Apr 2025 - Present)",
+        location: "Remote/On-site",
+        description: [
+            "Accelerated sprint cadences and improved software delivery predictability by enforcing rigorous Agile/Scrum and Git workflows.",
+            "Reduced technical debt and future system maintenance costs by architecting features using SOLID design patterns and Clean Code principles.",
+            "Delivered high-performance RESTful APIs leveraging microservices architecture (Java Spring Boot, Data JPA), enabling seamless data exchange between business units.",
+            "Bolstered application reliability and achieved superior code quality metrics, utilizing TDD via JUnit, Mockito, and SonarLint.",
+            "Optimized real-time data ingestion and monitoring capabilities through advanced Java 8 stream processing and robust logging.",
+            "Enhanced database retrieval speeds and overall query performance by fine-tuning complex SQL operations."
+        ],
+    },
+    {
+        _id: 3,
+        title: "Software Engineering Intern",
+        subTitle: "GrayCyan (Sep 2024 - Dec 2024)",
+        location: "Toronto, Ontario, Canada",
+        description: [
+            "Spearheaded the end-to-end development and successful market launch of HonestAi, delivering a production-grade platform on AWS (Next.js, Node.js).",
+            "Empowered data-driven decision-making by architecting a scalable AWS Lambda intelligence pipeline powered by Generative AI (OpenAI API).",
+            "Boosted customer engagement metrics and cut response times by deploying a real-time WebSocket-based AI chatbot.",
+            "Maximized user acquisition and security compliance by integrating robust multi-channel authentication (AWS Cognito, Firebase Auth).",
+            "Scaled marketing outreach capabilities effortlessly by integrating cloud-native email management targeting large customer bases."
         ],
     },
     {
         _id: 2,
-        title: "Graduate Engineering Trainee (Java Developer)",
-        subTitle: "Snapdeal (Acevector Group Private Limited) - (09/2022 - 07/2023)",
+        title: "Software Developer",
+        subTitle: "Snapdeal (Sep 2022 - Mar 2023)",
         location: "Gurugram, Haryana, India",
         description: [
-            "During my tenure at Snapdeal as a Graduate Engineering Trainee, I was involved in several key projects and responsibilities",
-            "WhatsApp Shop System Implementation: Developed and integrated a system allowing customers to shop via WhatsApp. This included creating REST APIs to handle real-time, event-based interactions.",
-            "Catalog Management: Managed and updated product catalogs in Meta product catalog ensuring accurate and current information for users.",
-            "Secure Checkout Process: Ensured a seamless and secure checkout experience for users shopping through the WhatsApp platform.",
-            "Issue Resolution: Proactively resolved refund voucher issues, ensuring customer satisfaction and system reliability.",
-            "Debugging Internal Systems: Identified, analyzed, and fixed internal system problems to enhance performance and stability.",
-            "Tech Stack: Java, Spring, Spring Boot, SQL, NoSQL, Jenkins, JIRA, AWS, Agile, SDLC, Grafana, JUnit.",
+            "Generated substantial increases in transactional security and ecosystem reliability by engineering real-time REST API integrations for Snapdeal’s core product line.",
+            "Ensured alignment with critical business deliverables by taking an active role in cross-functional continuous delivery pipelines (Agile/Scrum).",
+            "Reduced infrastructure overhead and significantly improved data availability by driving the migration of legacy on-premises data to AWS Cloud.",
+            "Elevated critical system performance by leading rigorous performance tuning and testing initiatives."
         ],
-    },
-    {
-        _id: 1,
-        title: "Content Intern",
-        subTitle: "Coding Ninjas (Sunrise Mentors Private Limited) - (01/2022 - 07/2022)",
-        location: "Gurugram, Haryana, India",
-        description: [
-            "As a Content Intern at Coding Ninjas, I contributed significantly to the development and enhancement of educational content. My responsibilities included:",
-            "Content Development for Database Management Systems: Created comprehensive learning materials covering various aspects of DBMS, including SQL queries, database design, normalization, and transaction management.",
-            "Operating Systems Content Creation: Developed detailed content explaining core operating system concepts such as process management, memory management, file systems, and synchronization.",
-            "System Design Course Materials: Crafted educational resources focusing on system design principles, architectural patterns, scalability, and distributed systems.",
-            "Tech Stack: HTML, SQL.",
-        ],
-    },
+    }
 ];
 
 export const projectsData: ProjectItem[] = [
+    {
+        title: 'ILikeImage: An Image Type Converter Platform',
+        des: [
+            "Designed a serverless architecture with AWS Lambda and API Gateway, ensuring scalable and cost-effective backend operations.",
+            "Deployed frontend via Elastic Beanstalk and used S3 for secure image storage, integrating user-facing elements with server-side logic.",
+            "Enhanced reliability with SNS and SQS integration for robust messaging, and implemented AWS CloudWatch for comprehensive monitoring and debugging."
+        ],
+        techStack: 'AWS Lambda, API Gateway, Elastic Beanstalk, S3, SNS, SQS, CloudWatch'
+    },
     {
         title: 'Wanderlust: A Virtual Tour Assistant',
         des: [
@@ -112,12 +129,12 @@ export const projectsData: ProjectItem[] = [
             'Translator: Facilitates easy communication with locals by translating text and speech between multiple languages.',
             'Storytelling Feature: Delivers rich historical and cultural information about various attractions through engaging narratives.',
         ],
-        githubLink:'https://github.com/aditidona/WonderLust-Virtual-Tour-Assistant',
+        githubLink: 'https://github.com/aditidona/WonderLust-Virtual-Tour-Assistant',
         techStack: 'Flutter, Dart, Python, Django, Firebase, Figma'
     },
     {
         title: 'Rent-o-buy: Mobile Application for Renting and Buying Second-Hand Products',
-        githubLink:'https://github.com/Rachit1606/rentobuy',
+        githubLink: 'https://github.com/Rachit1606/rentobuy',
         des: [
             'This mobile application was created to streamline the process of renting and buying pre-owned items. I worked on',
             'Calling System: Allows users to directly contact sellers or renters via in-app calling using Zegocloud',
@@ -129,7 +146,7 @@ export const projectsData: ProjectItem[] = [
     },
     {
         title: 'Strangely: A Social Media Website',
-        githubLink:'https://github.com/Rachit1606/Strangely',
+        githubLink: 'https://github.com/Rachit1606/Strangely',
         des: [
             "Developed the backend of a social media and events platform with robust features to enhance user interaction and engagement:",
             "Authentication: Secure login and registration system to protect user data by using Spring Security and JWT",
@@ -142,31 +159,29 @@ export const projectsData: ProjectItem[] = [
     },
     {
         title: 'Eduhub: An Online Learning Platform',
-        githubLink:'https://github.com/Rachit1606/eduhub',
+        githubLink: 'https://github.com/Rachit1606/eduhub',
         des: [
-            'Contributed to the development of Eduhub, focusing on the online testing feature which includes:',
-            'Question Banks: A repository of questions that can be categorized and reused in various tests. User is able to do CRUD operations on Questions',
-            'Test Creation: Allows educators to create customized tests with varying levels of difficulty and formats. User is able to do CRUD on tests.',
-            'Test Attempts: Enables students to take tests within a controlled environment and secure environment',
-            'Result Generation: Automated evaluation and result generation providing immediate feedback to students',
+            "Developed an Online Test feature enabling teachers to create and manage tests, and students to attempt them.",
+            "Implemented a Question Bank feature for easy access to a pool of questions and Test Creation functionality for teachers.",
+            "Designed algorithms for automatic test creation based on specified parameters and implemented secured attempts and result generation features.",
+            "Deployed the Application using AWS Elastic Beanstalk for frontend and backend."
         ],
         techStack: 'React, JavaScript, Java, Spring Boot, MongoDB, Netlify, Render, REST',
     },
     {
         title: 'TaskSync: A Collaborative Task Management Website',
-        githubLink:'https://github.com/Rachit1606/TaskSync',
+        githubLink: 'https://github.com/Rachit1606/TaskSync',
         des: [
-            'Built a web platform aimed at improving team collaboration and productivity through effective task management. Features include:',
-            'User Authentication: Secure login system using AWS Cognito.',
-            'Data Storage: Persistent data storage and retrieval using SQL databases. with AWS RDS',
-            'Deployment: Leveraged AWS services for robust deployment, including Elastic Beanstalk for application hosting, EC2 for scalable computing power, Load Balancers for traffic management, VPC for network isolation, and RDS for relational database services.',
-            'Used AWS Cloudformation to deploy AWS resources '
+            "Developed a collaborative task management platform with user authentication and robust data storage, focusing on coding, debugging, and system consistency.",
+            "Deployed using AWS services for scalability and reliability, including EC2 instances, Elastic Beanstalk, and VPC.",
+            "Integrated RDS for database deployment and AWS Cognito for secure authentication, ensuring a seamless user experience.",
+            "Implemented AWS Backup for data protection, optimizing performance, and following emerging technologies."
         ],
         techStack: 'React, JavaScript, Java, Spring Boot, SQL, AWS (Amazon Web Services), CloudFormation'
     },
     {
         title: "Lightweight Fine Tuning to a Foundational Model",
-        websiteLink:`https://drive.google.com/file/d/1lSv4r0mQY_hb9KJgi4zah7m-cXRpoqGM/view?usp=drive_link`,
+        websiteLink: `https://drive.google.com/file/d/1lSv4r0mQY_hb9KJgi4zah7m-cXRpoqGM/view?usp=drive_link`,
         des: [
             "Loaded a pre-trained GPT-2 model and evaluated its performance.",
             "Performed parameter-efficient fine-tuning using the PEFT library with LoRA configuration.",
@@ -192,17 +207,20 @@ export const projectsData: ProjectItem[] = [
             'Attached persistent volume to the kubernetes cluster accessible by both microservice containers. Exposed one microservice as a service to the internet.'
         ],
         techStack: 'Spring boot, Kubernetes, Terraform, GCP Cloud Build, Cloud Source Repository, Artifact Registry'
-    }, 
+    },
 ];
 
 export const skills = {
     backend: [
         "Java",
+        "Python",
+        "Node.js",
+        "Next.js",
         "Spring",
         "SpringBoot",
+        "Fast API",
         "Spring Cloud",
         "Spring Security",
-        "Python", 
         "Django",
         "Kotlin",
         "Dart"
@@ -224,8 +242,9 @@ export const skills = {
         "MySQL",
         "MongoDB",
         "DynamoDB",
+        "Firestore",
         "RDS"
-    ], 
+    ],
     cloud: [
         "AWS ECS",
         "Lambda",
@@ -237,36 +256,44 @@ export const skills = {
         "AWS Backup",
         "AWS Cognito",
         "GCP (Google Cloud Platform)",
+        "Azure",
         "Firebase"
     ],
     devops: [
         "Git",
         "Docker",
         "CI/CD",
-        "GCP Cloud Build",
         "Kubernetes",
+        "Openshift",
+        "Harness",
+        "Lightspeed",
+        "Linux CLI",
         "Terraform",
-        "AWS CloudFormation"
+        "AWS CloudFormation",
+        "GCP Cloud Build",
+        "Jenkins"
     ],
-    misc: 
-    [
-        "Agile Methodlogies",
-        "Software Development Lifecycle",
-        "OOPs",
-        "Jira",
-        "Jenkins",
-        "Figma",
-        "Grafana"
-    ],
+    misc:
+        [
+            "Agile Methodlogies",
+            "Software Development Lifecycle",
+            "OOPs",
+            "Jira",
+            "Confluence",
+            "Maven",
+            "UML",
+            "Figma",
+            "Grafana"
+        ],
     softskills:
-    [
-        "Adaptable",
-        "Innovative",
-        "Team Player",
-        "Self and Fast Learner",
-        "Problem Solver",
-        "Professional Communication skills"
-    ]
+        [
+            "Adaptable",
+            "Innovative",
+            "Team Player",
+            "Self and Fast Learner",
+            "Problem Solver",
+            "Professional Communication skills"
+        ]
 };
 
 export const bestSkills = [
@@ -285,14 +312,14 @@ export const resumeLink = `https://drive.google.com/file/d/1KdJGqbpbRAq-XZAX8t2s
 
 export const achievementsData = [
     {
-      title: "Cognizant Genrative AI hackathon Runner-ups",
-      description: "Won 2nd Price in Cognizant Generative AI hackathon by providing a viable solution regarding financial fraud in Canada. Got to know and Intereact with Industry Professionals and get a chance to join Generative AI Externship Program by Cognizant From June,2024 - July,2024",
-      imgSrc: "/assets/cognizant.jpg",
+        title: "Cognizant Genrative AI hackathon Runner-ups",
+        description: "Won 2nd Price in Cognizant Generative AI hackathon by providing a viable solution regarding financial fraud in Canada. Got to know and Intereact with Industry Professionals and get a chance to join Generative AI Externship Program by Cognizant From June,2024 - July,2024",
+        imgSrc: "/assets/cognizant.jpg",
     },
     {
-      title: "Generative AI and Ocean Hackathon Runner-ups",
-      description: "Won 2nd Prize in Generative AI & Oceans by providing a viable solution for marine life conservation with Gen AI. Presented our Idea at the 2024 Dalhousie AI Symposium. Got a chance to gain experience and knowledge for great minds in the field of Generative AI",
-      imgSrc: "/assets/deepsense.jpg",
+        title: "Generative AI and Ocean Hackathon Runner-ups",
+        description: "Won 2nd Prize in Generative AI & Oceans by providing a viable solution for marine life conservation with Gen AI. Presented our Idea at the 2024 Dalhousie AI Symposium. Got a chance to gain experience and knowledge for great minds in the field of Generative AI",
+        imgSrc: "/assets/deepsense.jpg",
     },
     {
         title: "Cognizant Generative AI Externship",
@@ -325,5 +352,5 @@ export const achievementsData = [
         imgSrc: "/assets/sql.jpg",
     },
 
-  ];
-  
+];
+
