@@ -8,6 +8,8 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { SiLeetcode } from "react-icons/si";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
@@ -110,9 +112,11 @@ const NavList = ({
   return (
     <ul className={extraClass}>
       {navLinks.map(({ _id, title, link }) => (
-        <li
+        <motion.li
           key={_id}
-          className={`${navItemtext} font-normal text-lightText tracking-wide cursor-pointer hover:text-designColor hover:drop-shadow-[0_0_8px_rgba(0,240,255,0.8)] duration-300`}
+          whileHover={{ y: -2, scale: 1.05 }}
+          whileTap={{ scale: 0.85, filter: "brightness(1.5)" }}
+          className={`${navItemtext} font-normal text-lightText tracking-wide cursor-pointer hover:text-designColor hover:drop-shadow-[0_0_12px_rgba(0,240,255,0.8)] duration-200`}
         >
           <Link
             to={link}
@@ -125,9 +129,13 @@ const NavList = ({
           >
             {title}
           </Link>
-        </li>
+        </motion.li>
       ))}
-      <li className="border w-fit border-designColor rounded-md px-4 py-2 hover:shadow-neon hover:bg-designColor/10 transition-all duration-300">
+      <motion.li 
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.9 }}
+        className="border w-fit border-designColor rounded-md px-4 py-2 hover:shadow-neon hover:bg-designColor/10 transition-all duration-300"
+      >
         <a
           href={resumeLink}
           target="_blank"
@@ -136,7 +144,7 @@ const NavList = ({
         >
           Resume
         </a>
-      </li>
+      </motion.li>
     </ul>
   );
 };
@@ -145,6 +153,14 @@ const profiles = [
   {
     href: "https://www.linkedin.com/in/rachit-khanna-961b5816b/",
     icon: <FaLinkedinIn />,
+  },
+  {
+    href: "https://github.com/Rachit1606",
+    icon: <FaGithub />,
+  },
+  {
+    href: "https://leetcode.com/u/rachukhanna2347/",
+    icon: <SiLeetcode />,
   },
 ];
 

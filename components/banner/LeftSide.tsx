@@ -1,6 +1,7 @@
 "use client";
 import { bestSkills, skills } from "@/data";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 const LeftSide = () => {
   const [text] = useTypewriter({
@@ -27,7 +28,7 @@ const LeftSide = () => {
             />
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide text-justify">
-            Dynamic and accomplished computer science professional with 2 years of hands-on experience in software development, cloud computing, and Generative AI. Currently pursuing a Master&apos;s in Applied Computer Science at Dalhousie University, complemented by a Bachelor&apos;s in Computer Engineering. Proficient in a wide array of programming languages, frameworks, and cloud technologies including Python, Java, React, AWS, and GCP.
+            Dynamic and accomplished computer science professional with 3 years of hands-on experience in software development, cloud computing, and Generative AI. Currently pursuing a Master&apos;s in Applied Computer Science at Dalhousie University, complemented by a Bachelor&apos;s in Computer Engineering. Proficient in a wide array of programming languages, frameworks, and cloud technologies including Python, Java, React, AWS, and GCP.
             <br />
             <br />
             Demonstrated expertise in developing innovative mobile and web applications, such as a virtual tour assistant and a collaborative task management website. Proven track record in delivering robust solutions and excelling in collaborative, fast-paced environments. Key strengths include innovation, teamwork, adaptability, problem-solving, and professional communication skills.
@@ -85,6 +86,10 @@ const profiles = [
   {
     href: "https://github.com/Rachit1606",
     icon: <FaGithub />,
+  },
+  {
+    href: "https://leetcode.com/u/rachukhanna2347/",
+    icon: <SiLeetcode />,
   },
 ];
 
