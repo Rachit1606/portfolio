@@ -60,10 +60,10 @@ export const workExperiences: WorkExperienceItem[] = [
         _id: 5,
         title: "Full Stack Developer - Contract",
         subTitle: "Citigroup (June 2025 - Present)",
-        location: "Remote/On-site",
+        location: "Hybrid",
         description: [
             "Boosted application execution efficiency by 25% by strategically refactoring the core Python codebase, driving higher maintainability and system modularity.",
-            "Engineered an internal application management portal (React, FastAPI, MongoDB) that streamlined internal operations and improved cross-team resource visibility.",
+            "Engineered an internal portal (React, FastAPI, MongoDB) that streamlined internal operations and improved cross-team resource visibility.",
             "Slashed manual processing time by over 40% by deploying automated Python and GraphQL scripts for complex administrative workflows.",
             "Accelerated delivery cycles and optimized internal tooling by spearheading automation initiatives across cross-functional Agile/Scrum teams.",
             "Ensured zero-downtime deployments and rapid scaling of full-stack services across ECS Kubernetes clusters using Harness, Lightspeed, and OpenShift."
@@ -221,9 +221,7 @@ export const skills = {
         "Fast API",
         "Spring Cloud",
         "Spring Security",
-        "Django",
-        "Kotlin",
-        "Dart"
+        "Django"
     ],
     frontend: [
         "React",
@@ -299,12 +297,13 @@ export const skills = {
 export const bestSkills = [
     "Java",
     "Spring Boot",
+    "Python",
+    "Fast API",
+    "AI Agents",
+    "AWS",
     "Agile",
     "Microservices",
-    "JUnit",
     "SQL",
-    "AWS",
-    "Generative AI",
 ];
 
 export const resumeLink = `https://drive.google.com/file/d/1KdJGqbpbRAq-XZAX8t2sva9KhKcz2sx_/view?usp=sharing`;

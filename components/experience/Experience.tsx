@@ -3,10 +3,16 @@
 import { workExperiences } from "@/data";
 import Title from "../common/Title";
 import ExperienceCard from "./ExperienceCard";
+import { motion } from "framer-motion";
+
 const Experience = () => {
   return (
     <>
-      <section
+      <motion.section
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true, amount: 0.2 }}
         id="experience"
         className="w-full py-20 border-b-[1px] border-b-gray-600"
       >
@@ -28,7 +34,7 @@ const Experience = () => {
             )}
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

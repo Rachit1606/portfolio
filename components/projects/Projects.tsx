@@ -1,11 +1,18 @@
+"use client";
+
 import { projectsData } from "@/data";
 import Title from "../common/Title";
 import ProjectCard from "./ProjectCard";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
     <>
-      <section
+      <motion.section
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true, amount: 0.1 }}
         id="projects"
         className="w-full py-20 border-b-[1px] border-b-gray-600 px-4"
       >
@@ -14,7 +21,7 @@ const Projects = () => {
         </div>
         {projectsData.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-14">
-            {projectsData.sort((a,b) => b.src ? 1 : -1).map((item, index) => (
+            {projectsData.map((item, index) => (
               <ProjectCard
                 key={index}
                 title={item.title}
@@ -31,7 +38,7 @@ const Projects = () => {
             Projects will be added soon.
           </h3>
         )}
-      </section>
+      </motion.section>
     </>
   );
 };

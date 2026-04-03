@@ -6,13 +6,17 @@ import Navbar from "@/components/navbar/Navbar";
 import Projects from "@/components/projects/Projects";
 import Skill from "@/components/skills/Skill";
 import Achievements from "@/components/achievements/Achievements";
+import JarvisLoader from "@/components/JarvisLoader";
+import BotContact from "@/components/BotContact";
 
 export default function Home() {
   return (
     <>
-      <div className="w-full h-auto bg-bodyColor text-lightText">
+      <JarvisLoader />
+      <BotContact />
+      <div className="w-full h-auto bg-transparent text-lightText">
         <Navbar />
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-xl mx-auto hidden-scroll">
           <Banner />
           <Experience />
           <Skill />
@@ -25,3 +29,4 @@ export default function Home() {
     </>
   );
 }
+
