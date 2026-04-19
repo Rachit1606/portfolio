@@ -58,7 +58,7 @@ export const navLinks: NavItem[] = [
 export const workExperiences: WorkExperienceItem[] = [
     {
         _id: 5,
-        title: "Full Stack Developer - Contract (Sent by FDM Group)",
+        title: "Full Stack Developer — Contract Role via FDM Group",
         subTitle: "Citigroup (June 2025 - Present)",
         location: "Mississauga, Ontario, Canada",
         description: [
