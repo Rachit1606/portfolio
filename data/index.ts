@@ -58,9 +58,9 @@ export const navLinks: NavItem[] = [
 export const workExperiences: WorkExperienceItem[] = [
     {
         _id: 5,
-        title: "Full Stack Developer - Contract",
+        title: "Full Stack Developer - Contract (Sent by FDM Group)",
         subTitle: "Citigroup (June 2025 - Present)",
-        location: "Missisunga, Ontario, Canada",
+        location: "Mississauga, Ontario, Canada",
         description: [
             "Boosted application execution efficiency by 25% by strategically refactoring the core Python codebase, driving higher maintainability and system modularity.",
             "Engineered an internal portal (React, FastAPI, MongoDB) that streamlined internal operations and improved cross-team resource visibility.",
@@ -75,6 +75,7 @@ export const workExperiences: WorkExperienceItem[] = [
         subTitle: "FDM Group (Apr 2025 - Present)",
         location: "Toronto, Ontario, Canada",
         description: [
+            "This is during period of training at FDM Group",
             "Accelerated sprint cadences and improved software delivery predictability by enforcing rigorous Agile/Scrum and Git workflows.",
             "Reduced technical debt and future system maintenance costs by architecting features using SOLID design patterns and Clean Code principles.",
             "Delivered high-performance RESTful APIs leveraging microservices architecture (Java Spring Boot, Data JPA), enabling seamless data exchange between business units.",
